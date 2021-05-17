@@ -1,0 +1,73 @@
+.watch{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    margin: 70px auto 0;
+    background-image: url("watch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border: 5px solid rgb(46, 46, 46);
+    position: relative;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.arrow{
+    transform-origin: 50% 97%;
+}
+
+.circle_hour{
+    width: 30px;
+    height: 100px;
+    background: url("arrow-hour.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    transform: rotate(30deg);
+}
+
+.circle_minute{
+    width: 30px;
+    height: 150px;
+    background: url("arrow-minute.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    transform: rotate(324deg);
+}
+
+.circle_second{
+    width: 30px;
+    height: 170px;
+    background: url("arrow-second.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    transform: rotate(322deg);
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(46, 46, 46);
+    border-radius: 50%;
+}
